@@ -1,2 +1,2 @@
-let idade = "José";
-console.log(idade);
+let nome = "José";
+console.log(nome)
