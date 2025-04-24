@@ -11,6 +11,7 @@ let usuario2 = {
 };
 
 let usuario3 = {
+    id: 0,
     nome: 'Maria',
     idade: 10,
 };
