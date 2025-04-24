@@ -8,4 +8,5 @@ function fibonacci(num) {
         atuali = atualizacao
         }       
 }
+
 fibonacci(7)
