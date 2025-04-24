@@ -14,13 +14,11 @@ let usuario3 = {
 };
 
 let id = 0;
-
 let geral = [usuario1, usuario2, usuario3]
 for (let usuario of geral) {
     usuario['ID'] = id
     id += 1
 }
-
 for (let usuario of geral) {
     if (usuario['nome'] != '' && usuario['idade'] > 18) {
         console.log(`Nome: ${usuario['nome']}, ID: ${usuario['ID']}`)
