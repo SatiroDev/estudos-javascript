@@ -7,3 +7,5 @@ if (temCupom == true || eFeriado == true || eClienteVip == true) {
 else {
     console.log('cliente não tem direito a desconto')
 }
+
+// || -> or
