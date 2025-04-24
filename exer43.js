@@ -1,16 +1,23 @@
+function melhorAluno(lista) {
+    melhor = [];
+    let maior_nota = 0;
+    for (let aluno of lista) {
+        if (aluno['nota'] > maior_nota) {
+            maior_nota = aluno['nota'];
+        }
+    }
+    for (let aluno of lista) {
+        if (aluno['nota'] == maior_nota) {
+            melhor.push(aluno['nome']);
+        }
+    }
+    return melhor
+}
 let alunos = [
-    {nome: 'João', nota: 8},
+    {nome: 'João', nota: 9},
     {nome: 'Maria', nota: 5},
     {nome: 'José', nota: 9},
     {nome: 'Clara', nota: 6}
 ];
-let melhorAluno = '';
-let maiorNota = 0;
-for (let aluno of alunos) {
-    if (aluno['nota'] > maiorNota) {
-        melhorAluno = aluno['nome'];
-        maiorNota = aluno['nota'];
-    }
-}
 
-console.log(melhorAluno);
+console.log(melhorAluno(alunos));
