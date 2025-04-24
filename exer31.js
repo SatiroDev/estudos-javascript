@@ -15,13 +15,13 @@ switch (diaSemana) {
         console.log('quarta');
         break;
         
-    case 6:
+    case 5:
         console.log('quinta');
         break;
-    case 7:
+    case 6:
         console.log('sexta');
         break;
-    case 8:
+    case 7:
         console.log('sábado');
         break;
     default:
