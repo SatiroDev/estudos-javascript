@@ -1,9 +1,11 @@
 let usuario1 = {
+    id: 0,
     nome: 'João Silva',
     idade: 60,
 };
 
 let usuario2 = {
+    id: 0,
     nome: 'José Satiro',
     idade: 17,
 };
